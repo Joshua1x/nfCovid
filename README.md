@@ -7,7 +7,7 @@ nfCovid is the collection of scripts in bash, py and R, and different workflow u
 "after the sequencing data across multiple runs in way that allows pangolin and nextclade lineage calls and creates a large complete metadata table."
 
 The scripts/workflows used on this workflow are:
-0parFastas.R
+parFastas.R
 fasta2json.R
 ngs_summary_tracking_submission_files.R
 prepare_submission_baseline_surveillance-2023.sh
