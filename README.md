@@ -26,7 +26,7 @@ json2working_json.R
 
 Run automatic
 
-### Run mannualy
+##### Run mannualy
 nextflow run nfCovidV4.nf --paramito 'runname' 
     i.e. nextflow run nfCovidV4.nf --paramito 'UT-VH00770-231221'
 
