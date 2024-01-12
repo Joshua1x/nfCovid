@@ -10,8 +10,6 @@ library("easypackages");libraries("grid","rbin","data.table","progress","XML"
 sup <- suppressPackageStartupMessages
 sup(library(lubridate));sup(library(tidyverse));options("width"=300)
 args = commandArgs(trailingOnly=T);
-args[1]<- c("UT-VH00770-231221")
-#args[1]<- c("UT-A01290-231213")
 
 if(nchar(args[1])==17){date<-ymd(substr(args[1], 12, 17))} else{date<-ymd(substr(args[1], 11, 16))};date
 runPath <-paste('/Volumes/NGS/Analysis/covidseq',args[1],sep="/")
