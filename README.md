@@ -35,5 +35,5 @@ json2working_json.R
 
     
 ## parFastas.R
-R script to collect all the fastas
+### R script to collect all the fastas
 
