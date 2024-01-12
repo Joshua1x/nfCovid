@@ -34,5 +34,6 @@ json2working_json.R
      i.e. nextflow run nfCovidV4.nf --paramito 'UT-VH00770-231221'
 
     
-
+## parFastas.R
+R script to collect all the fastas
 
