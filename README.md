@@ -24,8 +24,8 @@ Dripping_Rock
 
 json2working_json.R
 
-Run automatic
-
+R#### Run automatic
+      There is an screen in LWS/testing detecting the covised_complete_nf.txt file
 #### Run mannualy
      nextflow run nfCovidV4.nf --paramito 'runname' 
      i.e. nextflow run nfCovidV4.nf --paramito 'UT-VH00770-231221'
