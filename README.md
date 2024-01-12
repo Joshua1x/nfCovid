@@ -2,7 +2,7 @@
 
 Purpose
 
-nfCovid is the collection of scripts in bash, py and R, and different workflow used at the Utah Public Health Laboratory (UPHL) for SARS-CoV-2 data analysis after the Illumina dragen COVID pipeline finished the analysis phase detecting the copy_complete.txt file. 
+nfCovid is the collection of scripts in bash, py and R, and different workflows, used at the Utah Public Health Laboratory (UPHL) for SARS-CoV-2 data analysis after the Illumina dragen COVID pipeline finished the analysis phase detecting the copy_complete.txt file. 
 
 parFastas.R
 
