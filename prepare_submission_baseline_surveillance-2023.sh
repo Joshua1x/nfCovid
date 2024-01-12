@@ -56,7 +56,7 @@ do
    scp ${project_path}/covidseq_output/Logs_Intermediates/FastqGeneration/${accession}*/*_R2_*.fastq.gz ${project_path}/submission_files1/fastq-${run_name}/${sub_id}.R2_fastq.gz
 
 
-   # Note 2 of 2:  Only HARD  fastas sequences can be submmitted to GenBank and GISAID DBs, that means the fasta files MUST be from the Sample_Analysis folder NOT from the ConsensusFastas folder!!!
+   # Note 2 of 2:  Only Hard  fastas sequences can be submmitted to GenBank and GISAID DBs, that means the fasta files MUST be from the Sample_Analysis folder NOT from the ConsensusFastas folder!!!
 
    # GenBank. GenBank has a lower limit of 15 actg  nucleotides (non-ambiguous) for SARS-CoV-2 sequences
    if [ ${num_actg} -ge 15000 ]
